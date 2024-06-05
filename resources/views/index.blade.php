@@ -121,5 +121,14 @@
                 notificationsWrapper.show();
             });
         </script>
+
+        {{--
+        @vite('resources/js/app.js')
+        <script type="module">
+            Echo.channel(`my-channel`).listen('MyEvent', (e) => {
+                console.log(e);
+            });
+        </script>
+        --}}
     </body>
 </html>
